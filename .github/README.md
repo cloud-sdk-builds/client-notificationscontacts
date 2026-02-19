@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-notificationscontacts`](https://www.npmjs.com/package/@aws-sdk/client-notificationscontacts/v/3.858.0).
+[`@aws-sdk/client-notificationscontacts`](https://www.npmjs.com/package/@aws-sdk/client-notificationscontacts/v/3.859.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-notificationscontacts@3.858.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-notificationscontacts@3.859.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-5YzJi0rcZuD0yQefeCQXKYu/c7chMPFWM91Nk1sl3GER2u59c2h4tetEQpeqxHwR
+sha384-82aA6ngkzoOjM2FxuvY5EIbLvDmC//JoBGRMdqwLXSXVEt/EQGp9DSVd5gkh2w/G
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-notificationscontacts": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-notificationscontacts@3.858.0/index.min.mjs"
+            "@aws-sdk/client-notificationscontacts": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-notificationscontacts@3.859.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-notificationscontacts@3.858.0/index.min.mjs": "sha384-5YzJi0rcZuD0yQefeCQXKYu/c7chMPFWM91Nk1sl3GER2u59c2h4tetEQpeqxHwR"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-notificationscontacts@3.859.0/index.min.mjs": "sha384-82aA6ngkzoOjM2FxuvY5EIbLvDmC//JoBGRMdqwLXSXVEt/EQGp9DSVd5gkh2w/G"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-notificationscontacts": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-notificationscontacts@3.858.0/index.min.mjs"
+                        "@aws-sdk/client-notificationscontacts": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-notificationscontacts@3.859.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-notificationscontacts@3.858.0/index.min.mjs": "sha384-5YzJi0rcZuD0yQefeCQXKYu/c7chMPFWM91Nk1sl3GER2u59c2h4tetEQpeqxHwR"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-notificationscontacts@3.859.0/index.min.mjs": "sha384-82aA6ngkzoOjM2FxuvY5EIbLvDmC//JoBGRMdqwLXSXVEt/EQGp9DSVd5gkh2w/G"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.858.0`)
+* Always pin to a specific version (`@3.859.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-notificationscontacts/blob/refs/tags/3.858.0/LICENSE
+https://github.com/cloud-sdk-builds/client-notificationscontacts/blob/refs/tags/3.859.0/LICENSE
 ```
 
 ---
