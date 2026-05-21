@@ -1,12 +1,12 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-notificationscontacts`](https://www.npmjs.com/package/@aws-sdk/client-notificationscontacts/v/3.1050.0).
+[`@aws-sdk/client-notificationscontacts`](https://www.npmjs.com/package/@aws-sdk/client-notificationscontacts/v/3.1051.0).
 
 Refer to the links below for detailed documentation:
 - All Services - [https://cloud-sdk-builds.github.io](https://cloud-sdk-builds.github.io/)
 - @aws-sdk/client-notificationscontacts - [https://cloud-sdk-builds.github.io/?sdk=client-notificationscontacts](https://cloud-sdk-builds.github.io/?sdk=client-notificationscontacts)
-- @aws-sdk/client-notificationscontacts v3.1050.0 - [https://cloud-sdk-builds.github.io/?sdk=client-notificationscontacts&version=3.1050.0](https://cloud-sdk-builds.github.io/?sdk=client-notificationscontacts&version=3.1050.0)
+- @aws-sdk/client-notificationscontacts v3.1051.0 - [https://cloud-sdk-builds.github.io/?sdk=client-notificationscontacts&version=3.1051.0](https://cloud-sdk-builds.github.io/?sdk=client-notificationscontacts&version=3.1051.0)
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -33,13 +33,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-notificationscontacts@3.1050.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-notificationscontacts@3.1051.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-1hb+lGciBZMMioFDabd/KQJk5fsllPpT0d8UNV+xBFzsHJvj7cpNkpJafvEsa2Mt
+sha384-0o+jjGUqCqv03XaRZL431qo/11b+8/nze6DJaXg5HJS5BlU161rhp5QUsD+W8+8n
 ```
 
 ### 📌 Latest Version
@@ -66,10 +66,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-notificationscontacts": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-notificationscontacts@3.1050.0/index.min.mjs"
+            "@aws-sdk/client-notificationscontacts": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-notificationscontacts@3.1051.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-notificationscontacts@3.1050.0/index.min.mjs": "sha384-1hb+lGciBZMMioFDabd/KQJk5fsllPpT0d8UNV+xBFzsHJvj7cpNkpJafvEsa2Mt"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-notificationscontacts@3.1051.0/index.min.mjs": "sha384-0o+jjGUqCqv03XaRZL431qo/11b+8/nze6DJaXg5HJS5BlU161rhp5QUsD+W8+8n"
         }
       }
 </script>
@@ -86,10 +86,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-notificationscontacts": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-notificationscontacts@3.1050.0/index.min.mjs"
+                        "@aws-sdk/client-notificationscontacts": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-notificationscontacts@3.1051.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-notificationscontacts@3.1050.0/index.min.mjs": "sha384-1hb+lGciBZMMioFDabd/KQJk5fsllPpT0d8UNV+xBFzsHJvj7cpNkpJafvEsa2Mt"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-notificationscontacts@3.1051.0/index.min.mjs": "sha384-0o+jjGUqCqv03XaRZL431qo/11b+8/nze6DJaXg5HJS5BlU161rhp5QUsD+W8+8n"
                     }
                   }
             </script>
@@ -156,7 +156,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.1050.0`)
+* Always pin to a specific version (`@3.1051.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -176,7 +176,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-notificationscontacts/blob/refs/tags/3.1050.0/LICENSE
+https://github.com/cloud-sdk-builds/client-notificationscontacts/blob/refs/tags/3.1051.0/LICENSE
 ```
 
 ---
